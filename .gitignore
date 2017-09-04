@@ -1,3 +1,11 @@
+# vs code
+.history
+.vscode
+
+# intellij
+*.iml
+.idea/
+
 # Logs
 logs
 *.log
