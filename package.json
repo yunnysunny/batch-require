@@ -22,6 +22,7 @@
   "homepage": "https://github.com/yunnysunny/batch-require#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "jsdoc-to-markdown": "^3.0.0",
     "mocha": "^3.5.0"
   }
 }

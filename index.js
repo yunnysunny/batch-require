@@ -5,13 +5,13 @@ const path = require('path');
  * Require a batch of file, and get a map with custom key and the required module. The required module may be warpped by given class name.
  * 
  * @param {Object} option
- * @param {String} basePath The directory of files to require.
+ * @param {String} option.basePath The directory of files to require.
  * @param {String=} option.filenameSuffix Only the files end with `option.filenameSuffix` will be processed. The default value is `.js` .
  * @param {Class=} option.className The required module will be warpped by the class of `option.className`. The default value is null, which will return the original required module.
  * @param {String=} option.keyPrefix The prefix string of the key.
  * @param {Object} option.keyReplaces A map of data to indicate which characters to be replaced.
  * 
- * @returns this
+ * @returns {Object}
  */
 module.exports = function({
     filenameSuffix = '.js',
