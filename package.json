@@ -1,13 +1,14 @@
 {
   "name": "batch-require",
   "version": "0.1.0",
-  "description": "",
+  "description": "A module which can load a batch of module in a directory.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive test/mocha",
     "bump_path": "npm version patch -m \"upgrade to %s\"",
     "bump_minor": "npm version minor -m \"upgrade to %s\"",
-    "upcode": "git pull origin master && git push origin master"
+    "upcode": "git pull origin master && git push origin master",
+    "doc": "jsdoc2md index.js > doc/api.md"
   },
   "repository": {
     "type": "git",
