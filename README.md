@@ -2,8 +2,8 @@
 
 [![NPM](https://nodei.co/npm/batch-require.png?downloads=true)](https://nodei.co/npm/batch-require/) 
 
-[![NPM version][https://img.shields.io/npm/v/batch-require.svg?style=flat-square]][https://npmjs.com/package/batch-require]
-[![Build status][https://travis-ci.org/yunnysunny/batch-require.svg?branch=master][https://travis-ci.org/yunnysunny/batch-require]]
+[![NPM version](https://img.shields.io/npm/v/batch-require.svg?style=flat-square)](https://npmjs.com/package/batch-require)
+[![Build status](https://travis-ci.org/yunnysunny/batch-require.svg?branch=master)](https://travis-ci.org/yunnysunny/batch-require)
 
 Sometimes we wanna load a batch of module in a directory. When you have such demand, batch-require gives you a good choice.
 
